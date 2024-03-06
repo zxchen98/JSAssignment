@@ -56,7 +56,7 @@ console.log(CheckEmailId("xiz6754@gmailcom"))
 //Qestion 4
 function truncate(str, length) {
     if (str.length > length) {
-        return str.slice(0, length - 3) + "...";
+        return str.slice(0, length) + "...";
     } 
     else {
         return str;
